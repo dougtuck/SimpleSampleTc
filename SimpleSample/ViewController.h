@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    bool    bGreenButton;
+    IBOutlet UIButton *speakerButton;
+    IBOutlet UILabel *outputLabel;
+}
+
+
+- (IBAction)changeButton:(id)sender;
 
 @end
